@@ -19,12 +19,12 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 100vh;
   position: relative;
 }
 
 .video {
-  text-align: center;
+  width: 100%;
 }
 
 .header-container {
@@ -73,6 +73,9 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .video {
+    width: 100%;
+  }
   .header-wrap {
     height: 50vh;
   }
@@ -137,6 +140,9 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .video {
+    width: 100%;
+  }
   .news {
     padding: 50px 20px;
     max-width: 1100px;
@@ -223,6 +229,9 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .video {
+    width: 100%;
+  }
   .case {
     padding: 50px 20px;
   }
@@ -268,6 +277,9 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .video {
+    width: 100%;
+  }
   .links {
     padding-top: 50px;
     flex-direction: column;
@@ -321,6 +333,9 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .video {
+    width: 100%;
+  }
   .footer-nav {
     padding-top: 50px;
     margin-bottom: 30px;
@@ -346,6 +361,9 @@ a:hover {
 }
 
 @media screen and (max-width: 960px) {
+  .video {
+    width: 100%;
+  }
   .sp_navi,
   .sp_navi dt a,
   .sp_navi dt a span {
